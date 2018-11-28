@@ -3,6 +3,8 @@ import model
 
 app = Flask(__name__)
 
+#this is a comment that does nothing
+
 @app.route("/")
 def index():
     ## print the guestbook
